@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+
+    <section class="kuponlar">
+      <div class="container">
+        <div class="row">
+            <div class="col-12 header_1 d-flex justify-content-end">
+                <ul class="d-inline-flex">
+                    <li class="pe-3"><a href="">İndirim Kuponlarım</a></li>
+                    <li class="pe-3"> <a href="">Trendyol'da Satış Yap</a></li>
+                    <li><a href="">Yardım & Destek</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <nav class="navbar navbar-expand-lg bg-body-emphasis">
+        <div class="container">
+          <a id="kuponnn" class="navbar-brand" href="#"><img src="/img/trendyol.jpg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex m-auto" role="search">
+                <input class="form-control m-auto me-0" type="search" placeholder="Aradığınız ürün, kategori veya markayı yazınız..." aria-label="Search">
+                <button class="btn btn-close-white m-auto" type="submit"><i class="bi bi-search"></i></button>
+              </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown responsives">
+                    <a class="nav-link dropdown-toggle fw-bold text-black " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                        <i class="bi bi-person fst-normal fw-bold"> Giriş Yap</i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-center" href="#">Giriş Yap</a></li>
+                      <li><a class="dropdown-item text-center" href="#">Üye Ol</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item responsives">
+                <a class="nav-link fw-bold text-black" href="#"><i class="bi bi-heart fst-normal fw-bold"> Favorilerim</i></a>
+              </li>
+              <li class="nav-item responsives">
+                <a class="nav-link fw-bold text-black" href="#"><i class="bi bi-cart3 fst-normal fw-bold"> Sepetim</i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="responsive_navbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <div class="left_menu">
+                        <button class="btn btn-close-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <i class="bi bi-list fst-normal menu_icon"> <span>menü</span></i>
+                          </button>
+                          <img class="responsive_navbar_img" src="/img/trendyol.jpg" alt="">
+                          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                                <img class="responsive_navbar_img" src="/img/trendyol.jpg" alt="">
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul>
+                                    <li class="responsivesss thunder mt-3 p-2"><a class="nav-link fw-bold text-black" href="#"><i class="bi bi-lightning-fill"></i> Flaş İndirimler <br> <span>Hemen Al, Fırsatı Kaçırma</span></a></li>
+                                    
+                                    <li class="responsivesss mt-3"><a class="nav-link fw-bold text-black" href="#"><i class="fa-sharp fa-solid fa-person"></i> ERKEK</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-sharp fa-solid fa-person-dress"></i> KADIN</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-solid fa-person-breastfeeding"></i> ANNE & ÇOCUK</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-solid fa-couch"></i> EV & MOBİLYA</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="bi bi-cart4"></i> SÜPER MARKET</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="bi bi-star-half"></i> KOZMETİK</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="bi bi-bag"></i> AYAKKABI & ÇANTA</a></li>
+                                    <hr>
+                                    <li class="responsivesss"> <a class="nav-link fw-bold text-black" href="#"><i class="bi bi-wrench-adjustable-circle"></i> ELEKTRONİK</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="bi bi-signpost-split-fill"></i> SPOR & OUTDOOR</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-sharp fa-solid fa-person"></i> ERKEK</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-sharp fa-solid fa-person-dress"></i> KADIN</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-solid fa-person-breastfeeding"></i> ANNE & ÇOCUK</a></li>
+                                    <hr>
+                                    <li class="responsivesss"><a class="nav-link fw-bold text-black" href="#"><i class="fa-solid fa-couch"></i> EV & MOBİLYA</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                    </div> 
+                    <div class="responsive_logins ms-auto">
+                        <i class="bi bi-person fst-normal fw-bold pe-3"></i>
+                        <i class="bi bi-heart fst-normal fw-bold pe-3"></i>
+                        <i class="bi bi-cart3 fst-normal fw-bold"></i>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <form class="d-flex m-auto" role="search">
+                        <input class="form-control m-auto me-0" type="search" placeholder="Aradığınız ürün, kategori veya markayı yazınız..." aria-label="Search">
+                        <button class="btn btn-close-white m-auto" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="kategoriler">
+        <div class="container main_2 ">
+            <div class="row">
+                <div class="col-12 mb-1 header_3">
+                    <ul class="d-flex justify-content-between" >
+                    <!-- KADIN MENÜ -->
+                        <li class="kadin_menu_dd " ><a href="">KADIN</a>
+                            <div class="header_menu_kadin">
+                                <div class="row header_menu pt-4 pb-4">
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Elbise</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">Bluz</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Etek</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Tesettür</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Elbise</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">Bluz</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Etek</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Tesettür</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Elbise</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">Bluz</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Etek</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Tesettür</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Elbise</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">Bluz</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Etek</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Tesettür</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 women_1_col_img">
+                                        <img class="img_1 mb-auto pt-1" src="/img/women-1.webp" alt="">
+                                        <img class="img_2 mt-auto pb-1" src="/img/women-2.webp" alt="">
+                                    </div>
+                                </div> 
+                            </div>
+                        </li>
+
+                    <!-- ERKEK MENÜ -->
+                        <li class="erkek_menu_dd"><a href="">ERKEK</a>
+                            <div class="header_menu_erkek ms-auto">
+                                <div class="row header_menu pt-4 pb-4">
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Şort</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">İç Çamaşır</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Bere</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Şapka</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="#">Şort</a></li>
+                                                <li><a href="#">Tişört</a></li>
+                                                <li><a href="#">Gömlek</a></li>
+                                                <li><a href="#">Kot Pantolon</a></li>
+                                                <li><a href="#">Kot Ceket</a></li>
+                                                <li><a href="#">Pantolon</a></li>
+                                                <li><a href="#">Mont</a></li>
+                                                <li><a href="#">İç Çamaşır</a></li>
+                                                <li><a href="#">Ceket</a></li>
+                                                <li><a href="#">Bere</a></li>
+                                                <li><a href="#">Kazak</a></li>
+                                                <li><a href="#">Şapka</a></li>
+                                                <li><a href="#">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Şort</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">İç Çamaşır</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Bere</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Şapka</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Giyim</a>
+                                            <ul>
+                                                <li><a href="">Şort</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">İç Çamaşır</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Bere</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Şapka</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 women_1_col_img">
+                                        <img class="img_1 mb-auto pt-1" src="/img/man-1.webp" alt="">
+                                        <img class="img_2 mt-auto pb-1" src="/img/women-2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    <!-- ANNE & ÇOCUK MENÜ -->
+                        <li class="cocuk_menu_dd"><a href="">ANNE & ÇOCUK</a>
+                            <div class="header_menu_cocuk">
+                                <div class="row header_menu  pt-4 pb-4">
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Bebek</a>
+                                            <ul>
+                                                <li><a href="#">Şort</a></li>
+                                                <li><a href="#">Tişört</a></li>
+                                                <li><a href="#">Gömlek</a></li>
+                                                <li><a href="#">Kot Pantolon</a></li>
+                                                <li><a href="#">Kot Ceket</a></li>
+                                                <li><a href="#">Pantolon</a></li>
+                                                <li><a href="#">Mont</a></li>
+                                                <li><a href="#">İç Çamaşır</a></li>
+                                                <li><a href="#">Ceket</a></li>
+                                                <li><a href="#">Bere</a></li>
+                                                <li><a href="#">Kazak</a></li>
+                                                <li><a href="#">Şapka</a></li>
+                                                <li><a href="#">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Erkek Çocuk</a>
+                                            <ul>
+                                                <li><a href="">Şort</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">İç Çamaşır</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Bere</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Şapka</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Kız Çocuk</a>
+                                            <ul>
+                                                <li><a href="">Şort</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">İç Çamaşır</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Bere</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Şapka</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 women_1_col">
+                                        <div class="my_box">
+                                            <a href="">Bebek Bakım</a>
+                                            <ul>
+                                                <li><a href="">Şort</a></li>
+                                                <li><a href="">Tişört</a></li>
+                                                <li><a href="">Gömlek</a></li>
+                                                <li><a href="">Kot Pantolon</a></li>
+                                                <li><a href="">Kot Ceket</a></li>
+                                                <li><a href="">Pantolon</a></li>
+                                                <li><a href="">Mont</a></li>
+                                                <li><a href="">İç Çamaşır</a></li>
+                                                <li><a href="">Ceket</a></li>
+                                                <li><a href="">Bere</a></li>
+                                                <li><a href="">Kazak</a></li>
+                                                <li><a href="">Şapka</a></li>
+                                                <li><a href="">Büyük Beden</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 women_1_col_img">
+                                        <img class="img_1 mb-auto pt-1" src="/img/anne_cocuk.webp" alt="">
+                                        <img class="img_2 mt-auto pb-1" src="/img/women-2.webp" alt="">
+                                    </div>
+                                </div>
+                            </div> 
+                        </li>
+                    
+                        <li><a href="#">EV & MOBİLYA</a></li>
+                        <li><a href="#">SÜPER MARKET</a></li>
+                        <li><a href="#">KOZMETİK</a></li> 
+                        <li><a href="#">AYAKKABI & ÇANTA</a></li>
+                        <li><a href="#">SAAT & AKSESUAR</a></li>
+                        <li><a href="#">ELEKTRONİK</a></li>
+                        <li><a href="#">SPOR & OUTDOOR</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <hr class="hr">
+
+    <section class="marka_carousel">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4">
+                    <div class="carousel">
+                        <div class="owl-carousel owl-theme owl-carousel-1">
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/20210425_15461619354815_Adidas.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">ADIDAS</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/20210425_15511619355075_Hummel.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">HUMMEL</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/20210425_15541619355251_Philips.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">PHILIPS</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/20210425_15541619355266_Puma.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">PUMA</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/20210425_15561619355388_Trendyolmilla.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">TRENDYOL</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/Apple_202301022041.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">APPLE</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/Coksatanlar1_202203072239.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">ÇOK SATANLAR</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/Dyson.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">DYSON</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/EglenceWeb_202012301831.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">EĞLENCE WEB</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/Pullbearyeni.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">PULL & BEAR</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/Screenshot20221128At163430_202211290324.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">KURUMSAL</h6>
+                            </div>
+                            <div class="item">
+                                <div class="carousel_box">
+                                    <div class="marka">
+                                        <img src="/img/carousel_img/xiaomi13.webp" alt="">
+                                    </div>
+                                </div>
+                                <h6 class="text-center pt-2">XİAOMİ</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mini_card">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mini_card_left mt-1">
+                        <a href=""><h5>Sepete En Çok Eklenenler</h5></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mini_card_center mt-1">
+                        <a href=""><h5>En Çok Öne Çıkanlar</h5></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mini_card_right mt-1">
+                        <a href=""><h5>Flaş İndirimler</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="advertising">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card1.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Giyilebilir Ürünler...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card2.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Penti - Yıldızlı Ürünler</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card3.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Mobilyada En Favori Ürünler</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card4.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Dev Markalarda Büyük Kış...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card5.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Oyuncak - 2022'nin En Çok...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card6.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Mango - Kadın & Erkek Tek...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="highlights_parent">
+                        <div class="highlights_parent_header">
+                            <h5>Öne Çıkanlar</h5>
+                            <a href="">Tüm Ürünler!</a>
+                        </div>
+                        <div class="highlights_carousel">
+                            <div class="owl-carousel owl-theme owl-carousel-2">
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_1.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Uraw Sakal Ve Bıyık Serumu</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>89,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_2.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Mateo Akıllı Saat</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>140,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_3.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Supertape Etiket</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <strike><h6 class="fw-lighter text-secondary ">120,99 TL</h6></strike> <h6>89,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>Sepette %4 İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun_2.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_4.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Suluk Lazımlık</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>55,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p class="bg-white"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_5.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Adidas Forma Takımı</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <strike><h6 class="fw-lighter text-secondary ">250,99 TL</h6></strike><h6> 150,99 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_6.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Nike Forma Takımı</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6> 150,99 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advertising">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card1.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Giyilebilir Ürünler...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card2.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Penti - Yıldızlı Ürünler</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card3.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Mobilyada En Favori Ürünler</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card4.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Dev Markalarda Büyük Kış...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card5.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Oyuncak - 2022'nin En Çok...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="cards">
+                        <div class="card">
+                            <div class="header_img">
+                                <img src="/img/card_img/card6.webp" alt="">
+                            </div>
+                            <div class="account">
+                                <div class="left_account p-2">
+                                    <h6 class="m-0 p-0 text-white" >Mango - Kadın & Erkek Tek...</h6>
+                                </div>
+                                <div class="right_account p-2">
+                                    <p class="p-0 m-0 metin">Alışverişe Başla ></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="highlights_parent">
+                        <div class="highlights_parent_header">
+                            <h5>Öne Çıkanlar</h5>
+                            <a href="">Tüm Ürünler!</a>
+                        </div>
+                        <div class="highlights_carousel">
+                            <div class="owl-carousel owl-theme owl-carousel-2">
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_1.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Uraw Sakal Ve Bıyık Serumu</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>89,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_2.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Mateo Akıllı Saat</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>140,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_3.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Supertape Etiket</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <strike><h6 class="fw-lighter text-secondary ">120,99 TL</h6></strike> <h6>89,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>Sepette %4 İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun_2.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_4.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Suluk Lazımlık</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>55,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p class="bg-white"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_5.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Adidas Forma Takımı</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <strike><h6 class="fw-lighter text-secondary ">250,99 TL</h6></strike><h6> 150,99 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_6.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Nike Forma Takımı</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6> 150,99 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="highlights_parent">
+                        <div class="highlights_parent_header">
+                            <h5>Öne Çıkanlar</h5>
+                            <a href="">Tüm Ürünler!</a>
+                        </div>
+                        <div class="highlights_carousel">
+                            <div class="owl-carousel owl-theme owl-carousel-2">
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_1.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Uraw Sakal Ve Bıyık Serumu</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>89,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_2.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Mateo Akıllı Saat</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>140,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_3.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Supertape Etiket</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <strike><h6 class="fw-lighter text-secondary ">120,99 TL</h6></strike> <h6>89,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>Sepette %4 İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun_2.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_4.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Suluk Lazımlık</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6>55,95 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p class="bg-white"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/En_cok_satan.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_5.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Adidas Forma Takımı</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <strike><h6 class="fw-lighter text-secondary ">250,99 TL</h6></strike><h6> 150,99 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="highlights_box d-inline-block">
+                                        <div class="en_cok_satan">
+                                            <img src="/img/highlights_img/yildizli_urun.webp" alt="">
+                                        </div>
+                                        <div class="love_icon">
+                                            <i class="bi bi-heart"></i>
+                                        </div>
+                                        <div class="highlights_box_img">
+                                            <img src="/img/highlights_img/highlights_6.webp" alt="">
+                                        </div>
+                                        <div class="highlights_box_head">
+                                            <h6>Nike Forma Takımı</h6>
+                                        </div>
+                                        <div class="highlights_box_price">
+                                            <h6> 150,99 TL</h6>
+                                        </div>
+                                        <div class="highlights_box_discount">
+                                            <p>300 TL Üzeri 30 TL İndirim</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr mt-5">
+
+    <section class="boutique_list mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="boutique_list_wrapper">
+                        <h2>Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!</h2>
+                        <p>Trendyol olarak, 2010 yılında modayı herkes için ulaşılabilir kılmak amacıyla çıktığımız yolda Türkiye’nin önde gelen online pazar yerlerinden olmayı başardık. Kurulduğumuz ilk günden bu yana, müşterilerimizin beklentilerini odağımıza alarak giyimden aksesuara, ayakkabıdan kozmetiğe dek milyonlarca ürünü müşterilerimizle buluşturduk. E-ticaretteki dönüşümün en yakın takipçisi olarak, ödeme ve teslimat adımlarına getirdiğimiz yeniliklerle müşterilerimize kolay ve güvenli bir alışveriş deneyimi sunuyoruz.</p>
+                        <h3>Modern Tasarımlarıyla Dikkat Çeken Trendyol Markaları</h3>
+                        <p>Gelişen pazar hacminde pay kazanırken, müşterilerimizi Trendyol tasarımcılarının modern tasarımlarıyla buluşturmak için kendi markalarımızı yarattık. Kadın ve erkek giyim kategorilerinde öne çıkan trendleri yakaladığımız Trendyolmilla ürünlerini uygun fiyatlarla sizlerle buluşturuyoruz. Her tarza ve bütçeye hitap eden geniş ürün seçenekleri arasından size uygun olanlarla kış veya yaz kombinlerinizi tamamlayarak her mevsim modaya uygun giyinmenin keyfini yaşayabilirsiniz. Kışlık seçimlerinizde Trendyolmilla’nın trend kesimleriyle öne çıkan kazak, mont, hırka, ceket, pantolon ve eşofman takımlarını tercih edebilirsiniz. Yazlık kombinlerinizdeyse, yaz aylarının enerjisini yansıtan renkli ve pratik bir şekilde kombinleyebileceğiniz basic t-shirtleri kullanabilirsiniz. İnce ve terletmeyen kumaşlarla üretilen jean, kapri ve bermuda pantolonlarla serin tutan ideal seçimler yapabilirsiniz. Yaz tatil alışverişlerinde listenin başında yer alan bikini ve mayolardan modern desenli ürünleri geniş beden aralığıyla bulmanın rahatlığını yaşayabilirsiniz. Giyim alışverişlerinizi Trendyol Shoes’dan yapacağınız ayakkabı seçimleriyle tamamlayabilirsiniz. Günlük ayakkabı, spor ayakkabı, topuklu ayakkabı, sandalet, terlik, bot ve çizme seçenekleri arasından her kombine uygun modelleri bulabilirsiniz. Şık davetler ve özel günler için ışıltılı ve topuklu ayakkabı modellerini tercih ederken, günlük kullanım için spor modellere göz atabilirsiniz. Trendyol bünyesinde muhafazakar giyimi modern çizgilerle buluşturan Trendyol Modest markasının ürünlerini inceleyebilirsiniz. Elbiseden gömleğe, tunikten eşofman takımına kadar pek çok kategoride ihtiyacınız olan ürünleri Trendyol Modest markasında bulabilirsiniz. Sade, modern, kaliteli ve şık tasarımlarla günlük kombinleriniz için ihtiyaç duyduğunuz tüm parçaları dolabınıza ekleyebilirsiniz. Sezonun trend renkleri ve modellerini yansıttığımız Trendyol Man ve çocuk kıyafetleri için geliştirdiğimiz Trendyol Kids marka koleksiyonlarımızla herkes için modayı ulaşılır hale getiriyoruz. Siz de, Trendyol markalarını inceleyebilir, ihtiyaç duyduğunuz farklı kategorilerdeki ürünlerle moda trendlerini yakalayabilirsiniz.</p>
+                        <h3>Trendyol Müşterilerine Özel Ayrıcalıklı Uygulamalar</h3>
+                        <p>Trendyol müşterilerine ayrıcalıklı alışveriş için sunduğumuz Trendyol Elite avantajlarından sizler de yaralanabilirsiniz. Sadece Elite üyelerimizin faydalanabildiği özel hizmetler sayesinde ücretsiz kargo gibi pek çok ekstra özellik sizleri bekliyor. Trendyol deneyimini günlük hayatın her alanına taşıyarak market alışverişlerinizde Trendyol Hızlı Market ayrıcalığıyla mahallenizin bakkal ve marketlerinden ürünlerin kapınıza gelmesini sağlıyoruz. Temel gıdadan atıştırmalıklara, sebzeden meyveye pek çok üründe marketteki fiyatları Hızlı Market’te de aynı şekilde bulabilirsiniz. Et, balık, süt, şarküteri, temizlik ürünleri, çay, kuruyemiş gibi ihtiyaçlarınız Trendyol Hızlı Market ile aynı gün içinde elinize ulaşır. Evden çıkmadan yapacağınız mutfak alışverişinin yanı sıra, Trendyol Yemek uygulaması sayesinde akşam yemeklerinizi pratik şekilde sipariş verebilirsiniz. Yoğun iş temposunda vereceğiniz yemek siparişinin sıcak ve hızlı bir şekilde kapınıza ulaşmasıyla farklı mutfakların lezzetlerinin keyfine varabilirsiniz. Trendyol olarak müşterilerimize sunduğumuz ayrıcalıkların yanı sıra toplumdaki sosyal bilincin oluşmasına katkı sağlamak için Sepette İyilik uygulamasıyla da farklı alanlarda faaliyet gösteren sivil toplum kuruluşlarına ait ürünlerin satışını yaparak bu kuruluşlara destek oluyoruz. Bu ürünlerin bütün gelirini sivil toplum kuruluşlarına ulaştırıyoruz. Müşterilerimiz ilgili butiklerden satın aldıkları ürünlerle yardımlarını güvenle yapabilmenin ve sivil toplum kuruluşlarına katkı sağlamanın mutluluğunu yaşıyor.</p>
+                        <h3>Trendyol Özel Gün İndirimleriyle Kaçırılmayacak Fırsatlar</h3>
+                        <p>Trendyol’da özel indirim fırsatlarıyla ev yaşam ürünleri, giyim, kozmetik, elektronik, oyuncu ekipmanları, pratik mutfak eşyaları, bebek ve çocuk ürünleri ve süpermarket kategorilerinde uygun fiyatlarla avantajlı alışveriş yapabilirsiniz. Mega Eylül kampanyasıyla sezonun moda kıyafetlerini ve evinizin ihtiyaçlarını tamamlayabilirsiniz. Eylül ayına doğru başlayan Trendyol Okula Dönüş Kampanyası’nda yapacağınız fırsatlı alışverişle okul alışverişlerinizi tamamlayabilirsiniz. Okul öncesi, ilkokul, ortaokul, lise, üniversiteye yönelik kırtasiye ürünleriyle ihtiyaç duyduğunuz her şeyi sepetinize ekleyebilirsiniz. Çanta, defter, kalem, tablet, bilgisayar, okul kıyafetleri, çalışma odası takımları ve daha birçok ürünü Trendyol’dan inceleyerek uygun fiyatlarla satın alabilirsiniz. Kış hazırlıklarınız için ihtiyaç duyduğunuz tüm ürünleri Büyük Ekim Kampanyası ile ayrıcalıklı fırsatlarla alabilirsiniz. En trend kıyafetlerden, küçük ev eşyalarına ve elektronik ürünlere; kışın ihtiyaç duyacağınız gıda ve vitaminlerden, güvenli yolculuklar için kış lastiklerine dek birçok kategoriden ürünlere erişebilirsiniz. Yılın sonuna doğru Trendyol Efsane Günler’de yapılan ekstra indirimlerle yılda bir gelen fırsatları yakalayabilirsiniz. Trendyol’da yaz hazırlıkları için de kampanyalar devam ediyor. Büyük Bahar Kampanyası döneminde yapacağınız alışverişlerde elbiseler, tişörtler, sandaletler, cilt bakım ürünleri, formunu korumak isteyenlere spor aletleri, bahçe ve balkon keyfi sürmek isteyenler için çeşit çeşit sandalyeler, salıncaklar, bitki bakımı ve daha birçok ürünü Trendyol’da bulabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr mt-3">
+
+    <section class="populer_brands mb-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-6 mt-4">
+                    <h5>Popüler Marka ve Mağazalar</h5>
+                    <div class="row mt-4">
+                        <div class="col-4">
+                            <ul>
+                                <li><a href="#">Penti</a></li>
+                                <li><a href="#">Watsons</a></li>
+                                <li><a href="#">Stradiva...</a></li>
+                                <li><a href="#">İstikbal</a></li>
+                                <li><a href="#">Puma</a></li>
+                                <li><a href="#">Apple</a></li>
+                                <li><a href="#">Xiaomi</a></li>
+                                <li><a href="#">Greyder</a></li>
+                                <li><a href="#">Adidas</a></li>
+                                <li><a href="#">Lacoste</a></li>
+                                <li><a href="#">Madam...</a></li>
+                                <li><a href="#">Defacto</a></li>
+                                <li><a href="#">Tchibo</a></li>
+                                <li><a href="#">Network</a></li>
+                                <li><a href="#">Kiğılı</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li><a href="#">Mango</a></li>
+                                <li><a href="#">English...</a></li>
+                                <li><a href="#">Bellona</a></li>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Mudo</a></li>
+                                <li><a href="#">Hummel</a></li>
+                                <li><a href="#">Oppo</a></li>
+                                <li><a href="#">Arçelik</a></li>
+                                <li><a href="#">Nike</a></li>
+                                <li><a href="#">Avva</a></li>
+                                <li><a href="#">Pull & B...</a></li>
+                                <li><a href="#">Mavi</a></li>
+                                <li><a href="#">Farmasi</a></li>
+                                <li><a href="#">Bosch</a></li>
+                                <li><a href="#">Migros</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li><a href="#">Vivense</a></li>
+                                <li><a href="#">Bershka</a></li>
+                                <li><a href="#">Beymen</a></li>
+                                <li><a href="#">Addax</a></li>
+                                <li><a href="#">Derimod</a></li>
+                                <li><a href="#">Huawei</a></li>
+                                <li><a href="#">Monster...</a></li>
+                                <li><a href="#">DYSON</a></li>
+                                <li><a href="#">Skechers</a></li>
+                                <li><a href="#">Under A...</a></li>
+                                <li><a href="#">Koton</a></li>
+                                <li><a href="#">Pierre C...</a></li>
+                                <li><a href="#">Herbalife</a></li>
+                                <li><a href="#">Karaca</a></li>
+                                <li><a href="#">Avon</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-4">
+                    <h5>Popüler Sayfalar</h5>
+                    <div class="row mt-4">
+                        <div class="col-4">
+                            <ul>
+                                <li><a href="#">Bluetooth</a></li>
+                                <li><a href="#">Alışveriş Kredisi</a></li>
+                                <li><a href="#">Laptop</a></li>
+                                <li><a href="#">Kulaklık</a></li>
+                                <li><a href="#">Apple Watch</a></li>
+                                <li><a href="#">Buzdolabı</a></li>
+                                <li><a href="#">TV Ünitesi</a></li>
+                                <li><a href="#">iPhone 14 Pro</a></li>
+                                <li><a href="#">İndirimler</a></li>
+                                <li><a href="#">Kahve Makinası</a></li>
+                                <li><a href="#">Oyuncu Koltuğu</a></li>
+                                <li><a href="#">Saat</a></li>
+                                <li><a href="#">Apple Airpods</a></li>
+                                <li><a href="#">Sweat</a></li>
+                                <li><a href="#">Hediye</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li><a href="#">iPhone</a></li>
+                                <li><a href="#">iPhone 13</a></li>
+                                <li><a href="#">Tam Altın</a></li>
+                                <li><a href="#">Bluetooth</a></li>
+                                <li><a href="#">Çamaşır Mak...</a></li>
+                                <li><a href="#">Takım Elbise</a></li>
+                                <li><a href="#">Sırt Çantası</a></li>
+                                <li><a href="#">iPhone 14</a></li>
+                                <li><a href="#">Bilezik</a></li>
+                                <li><a href="#">Termos</a></li>
+                                <li><a href="#">Elbise</a></li>
+                                <li><a href="#">Pantolon</a></li>
+                                <li><a href="#">Trendyol EN</a></li>
+                                <li><a href="#">Trendyol DE</a></li>
+                                <li><a href="#">Trendyol Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4">
+                            <ul>
+                                <li><a href="#">Samsung</a></li>
+                                <li><a href="#">Robot Süpürge</a></li>
+                                <li><a href="#">Dolap</a></li>
+                                <li><a href="#">Çanta</a></li>
+                                <li><a href="#">Ayakkabı</a></li>
+                                <li><a href="#">Hediyelik</a></li>
+                                <li><a href="#">Oyuncak</a></li>
+                                <li><a href="#">Saat</a></li>
+                                <li><a href="#">Tablet</a></li>
+                                <li><a href="#">Bilgisayar</a></li>
+                                <li><a href="#">Cep Telefonu</a></li>
+                                <li><a href="#">Drone</a></li>
+                                <li><a href="#">Akülü Araba</a></li>
+                                <li><a href="#">Karne Hed...</a></li>
+                                <li><a href="#">Elbise</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5 text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 sutun_1 pt-5">
+                    <ul>
+                        <li><h5><a href="">Trendyol</a></h5></li>
+                        <li><a href="">Biz Kimiz</a></li>
+                        <li><a href="">Kariyer</a></li>
+                        <li><a href="">İletişim</a></li>
+                        <li><a href="">Trendyol'da Satış Yap</a></li>
+                        <li><h6 class="text-white">Güvenli Alışveriş</h6></li>
+                    </ul>
+                    <div class="master_card mt-4">
+                        <img src="/img/troy-master-visa.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-3 sutun_2 pt-5">
+                    <ul>
+                        <li><h5><a href="">About Us</a></h5></li>
+                        <li><a href="">Who we are</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li class="visib"><a href="">Trendyol'da Satış Yap</a></li>
+                        <li><h6 class="text-white">Mobil Uygulamalar</h6></li>
+                    </ul>
+                    <div class="app_cards mt-4">
+                        <div class="app_card">
+                            <a href=""><img src="/img/app-store.jpg" alt=""></a>
+                            <a href=""><img src="/img/google-play.jpg" alt=""></a>
+                            <a href=""><img src="/img/app-gallery.jpg" alt=""></a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 sutun_3 pt-5">
+                    <ul>
+                        <li><h5><a href="">Kampanyalar</a></h5></li>
+                        <li><a href="">Aktif Kampanyalar</a></li>
+                        <li><a href="">Elit Üyelik</a></li>
+                        <li><a href="">Hediye Fikirleri</a></li>
+                        <li class="visib"><a href="">Trendyol Fırsatları</a></li>
+                        <li><h6 class="text-white">Sosyal Medya</h6></li>
+                    </ul>
+                    <div class="social_medias mt-4">
+                        <div class="social_media">
+                            <a class="pe-1" href="#"><i class="bi bi-facebook"></i></a>
+                            <a class="pe-1" href="#"><i class="bi bi-instagram"></i></a>
+                            <a class="pe-1" href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 sutun_4 pt-5">
+                    <ul>
+                        <li><h5><a href="">Yardım</a></h5></li>
+                        <li><a href="">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="">Canlı Yardım</a></li>
+                        <li><a href="">Nasıl İade Edebilirim</a></li>
+                        <li class="visib"><a href="">İşlem Rehberi</a></li>
+                        <li><h6 class="text-white">Ülke Değiştir</h6></li>
+                    </ul>
+                    <div class="qr_codes mt-4">
+                        <div class="qr_code">
+                            <a href=""><img src="/img/qr_code.jpg" alt=""></a>
+                            <a href=""><img src="/img/tr_go.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_2">
+            <div class="container">
+                <div class="row pb-2">
+                    <div class="col-md-6 mt-2">
+                        <p>©2023 DSM Grup Danışmanlık İletişim ve Satış Tic.A.Ş.-Her Hakkı Saklıdır.</p>
+                    </div>
+                    <div class="col-md-6 mt-2 mb-2">
+                        <div class="cerezler">
+                            <a href="#">Çerez Tercihleri</a>
+                            <a href="#">KVK ve Gizlilik Politikası</a>
+                            <a href="#">DSM Grup</a>
+                            <a href="#">Kullanım Koşulları</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="up_button">
+        <div class="up">
+            <a href="#ups"><i class="bi bi-arrow-up">Yukarı Çık</i></a>
+        </div>
+    </div>
+    
+
+
+
+
+<!-- giriş favori sepet yazıları düzenlenecek ok
+navbar stşcky olduğu için yukarı çık butonu düzenlenecek ok
+responsivde menü açıldığında aşağıya inilmiyor o düzenlenecek -->
+
+
+
+
+
+
+    <!-- bs js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jquerry js -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!-- owl -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- my js -->
+    <script src="/app.js"></script>
+</body>
+</html>
